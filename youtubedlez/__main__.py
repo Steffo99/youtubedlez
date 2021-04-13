@@ -48,7 +48,8 @@ print()
 with youtube_dl.YoutubeDL({
     "noplaylist": True,
     "prefer_ffmpeg": True,
-    "outtmpl": f"{dl_location}/%(extractor)s__%(title)s.%(ext)s"
+    "outtmpl": f"{dl_location}/%(extractor)s__%(title)s.%(ext)s",
+    "postprocessors": postprocessors,
 }) as ytdl:
     ytdl.download([dl_url])
 print()
