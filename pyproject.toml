@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "youtubedlez"
+version = "0.1.0"
+description = "A fast and easy way to use YoutubeDL"
+authors = ["Stefano Pigozzi <me@steffo.eu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+youtube_dl = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
