@@ -22,7 +22,7 @@ build-backend = "poetry.core.masonry.api"
 name = "youtubedlez"
 
 # The version of the package.
-version = "0.2.0"
+version = "0.3.0"
 
 # A brief, one-sentence description about your project.
 description = "Super simple terminal interface for yt-dlp"
@@ -60,7 +60,7 @@ repository = "https://github.com/steffo99/youtubedlez"
 keywords = [
     "youtube",
     "downloader",
-    "terminal user interface",
+    "ytdlp",
     "tui",
     "easy",
 ]
@@ -132,6 +132,7 @@ youtubedlez = "youtubedlez.__main__:main"
 #          3.10.1  →  == 3.10.1
 
 python = "^3.10"
+yt-dlp = "*"
 
 
 
