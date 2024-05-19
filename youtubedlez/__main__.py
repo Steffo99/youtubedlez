@@ -8,7 +8,7 @@ audio_formats = ['best', 'aac', 'flac', 'mp3', 'm4a', 'opus', 'vorbis', 'wav']
 def main():
     print(f"Easy Youtube Downloader")
     print("(c) Stefano Pigozzi")
-    print("Licensed under the GNU-GPL-3.0-or-later")
+    print("Licensed under the EUPL-1.2")
     print("-" * 80)
     print()
 
